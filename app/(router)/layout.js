@@ -2,7 +2,9 @@ import React from 'react'
 
 function layout({children}) {
   return (
+    <>
     <div>{children}</div>
+    </>
   )
 }
 
